@@ -1,0 +1,45 @@
+/* Gallery Section */
+.gallery-section {
+    padding: 60px 0;
+    background: #f9f9f9;
+  }
+  
+  /* Slideshow Container */
+  .slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .slideshow-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 500px; 
+    width: 500px;/* Adjust based on your needs */
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .slideshow-wrapper {
+      height: 350px;
+    }
+    
+    .gallery-section {
+      padding: 40px 0;
+    }
+  }

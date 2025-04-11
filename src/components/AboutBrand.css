@@ -1,0 +1,40 @@
+/* ===== ABOUT BRAND ===== */
+.about-section {
+    padding: 80px 48px;
+  }
+  
+  .brand-description {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 60px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .mission-vision {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .mv-card {
+    flex: 1;
+    max-width: 500px;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .mv-card h3 {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+  }
+  
+  .mv-card p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 15px;
+  }

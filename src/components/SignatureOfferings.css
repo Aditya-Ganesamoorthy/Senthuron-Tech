@@ -1,0 +1,50 @@
+/* ===== SIGNATURE OFFERINGS ===== */
+.offerings-section {
+    padding: 80px 48px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .section-header h2 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+  
+  .section-header p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #666;
+  }
+  
+  .offering-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .offering-card {
+    flex: 1;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+    max-width: 360px;
+  }
+  
+  .offering-card h3 {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+  }
+  
+  .offering-card p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 15px;
+  }

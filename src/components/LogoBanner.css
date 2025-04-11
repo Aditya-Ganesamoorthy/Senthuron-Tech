@@ -1,0 +1,13 @@
+.logo-banner {
+    padding: 20px ;
+    text-align: center;
+    background: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .main-logo {
+    height: 100px;
+    width: auto;
+    max-width: 80%;
+  }

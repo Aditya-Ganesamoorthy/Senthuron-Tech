@@ -1,0 +1,47 @@
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 1024px) {
+    .app-container {
+      padding: 30px;
+    }
+    
+    .nav-menu {
+      gap: 30px;
+    }
+    
+    .offering-cards,
+    .mission-vision {
+      flex-wrap: wrap;
+    }
+    
+    .offering-card,
+    .mv-card {
+      min-width: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 20px;
+    }
+    
+    .navbar {
+      padding: 20px 30px;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .nav-menu {
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .hero {
+      height: 60vh;
+    }
+    
+    .offering-card,
+    .mv-card {
+      min-width: 100%;
+    }
+  }

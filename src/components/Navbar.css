@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .logo-container {
+    height: 50px; /* Match your logo's aspect ratio */
+  }
+  
+  .spr-logo {
+    height: 100%;
+    width: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f8faf6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #7c7511;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px 20px;
+    }
+    .nav-links {
+      gap: 15px;
+    }
+  }
+
+  .linkedin-button {
+    background-color: #0077b5;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .linkedin-button:hover {
+    background-color: #005582;
+  }
+  
